@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Update Page</title>
+</head>
+<body>
+<h>This Is Update Page</h>
+<form method="post">
+    {{ form.as_p }}
+    {% csrf_token %}
+    <input type="submit"value="Update">
+</form>
+</body>
+</html>

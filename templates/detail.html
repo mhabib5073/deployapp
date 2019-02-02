@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>This is The Detail of Employe</h1>
+<table>
+    <th>Detail of Employee</th>
+    <tr>
+    <th>ENo</th>
+    <th>Name</th>
+    <th>Salary</th>
+    <th>Address</th>
+    </tr>
+    <tr>
+        <td>{{ employee.eno }}</td>
+        <td>{{ employee.ename }}</td>
+        <td>{{employee.esal  }}</td>
+        <td>{{ employee.eaddr }}</td>
+    </tr>
+
+</table>
+<!--<div><a href="{% url 'delete' pk=employee.pk%}">DELETE</a>
+
+</div>
+-->
+</body>
+</html>
